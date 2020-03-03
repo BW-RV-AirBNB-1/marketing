@@ -173,6 +173,17 @@ img {
   max-width: 100%;
   height: auto;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 4%;
+  margin: 0 auto;
+  background-color: #77e8cb;
+}
+header img {
+  background-color: #1da985;
+}
 nav {
   display: flex;
   justify-content: space-around;
@@ -204,17 +215,6 @@ footer {
   color: white;
   background-color: black;
   padding: 1%;
-}
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 4%;
-  margin: 0 auto;
-  background-color: #77e8cb;
-}
-header img {
-  background-color: #1da985;
 }
 section {
   display: flex;

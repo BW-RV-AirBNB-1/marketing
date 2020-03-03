@@ -14,18 +14,67 @@ section {
     width: 50%;
     padding: 1%;
   }
+  @media @tablet {
+    flex-direction: column;
+    align-items: center;
+    max-height: 100%;
+
+    img {
+      width: 80%;
+    }
+
+    div {
+      width: 80%;
+    }
+  }
+  @media @mobile {
+    flex-direction: column;
+    max-height: 100%;
+
+    img {
+      width: 100%;
+    }
+
+    div {
+      width: 100%;
+    }
+  }
 }
 
 .section2,
 .section4 {
   flex-direction: row-reverse;
   background-color: @dark-section-bg;
+
+  @media @tablet {
+    flex-direction: column;
+  }
+
+  @media @mobile {
+    flex-direction: column;
+  }
 }
 
 button {
   .custom-btn(@button-bg, 150px, @black);
 
   &:hover {
-    .custom-btn(@bg-color: @icon-bg, @font-color: @off-white);
+    .custom-btn(@icon-bg, 150px, @off-white);
+
+    @media @tablet {
+      width: 50%;
+    }
+
+    @media @mobile {
+      width: 100%;
+    }
+  }
+
+  @media @tablet {
+    width: 50%;
+  }
+
+  @media @mobile {
+    width: 100%;
   }
 }

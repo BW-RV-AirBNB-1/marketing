@@ -241,3 +241,31 @@ section div {
   flex-direction: row-reverse;
   background-color: #eaf1f1;
 }
+button {
+  display: block;
+  background-color: #77e8cb;
+  margin: 10px 0px;
+  cursor: pointer;
+  width: 150px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: black;
+  line-height: 45px;
+  box-sizing: border-box;
+  text-align: center;
+}
+button:hover {
+  display: block;
+  background-color: #1da985;
+  margin: 10px 0px;
+  cursor: pointer;
+  width: 150px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: #eaf1f1;
+  line-height: 45px;
+  box-sizing: border-box;
+  text-align: center;
+}

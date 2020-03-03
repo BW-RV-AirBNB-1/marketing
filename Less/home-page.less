@@ -21,3 +21,11 @@ section {
   flex-direction: row-reverse;
   background-color: @dark-section-bg;
 }
+
+button {
+  .custom-btn(@button-bg, 150px, @black);
+
+  &:hover {
+    .custom-btn(@bg-color: @icon-bg, @font-color: @off-white);
+  }
+}

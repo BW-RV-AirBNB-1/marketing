@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 4%;
+  margin: 0 auto;
+  background-color: @header-bg;
+
+  img {
+    background-color: darken(@header-bg, 30%);
+  }
+}
+
+section {
+  display: flex;
+  max-height: 400px;
+  padding: 0 5%;
+  justify-content: center;
+  background-color: @main-bg;
+
+  img {
+    width: 50%;
+    padding: 1%;
+  }
+
+  div {
+    width: 50%;
+    padding: 1%;
+  }
+}
+
+.section2,
+.section4 {
+  flex-direction: row-reverse;
+  background-color: @dark-section-bg;
+}

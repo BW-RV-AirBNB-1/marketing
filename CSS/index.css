@@ -177,7 +177,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 48%;
+  width: 75%;
+  padding-left: 5%;
 }
 @media (max-width: 500px) {
   nav {
@@ -195,8 +196,12 @@ nav a:hover {
 }
 @media (max-width: 500px) {
   nav a {
-    font-size: 1.8rem;
     padding: 5% 0;
+  }
+}
+@media (max-width: 800px) {
+  nav a {
+    font-size: 1.6rem;
   }
 }
 footer {

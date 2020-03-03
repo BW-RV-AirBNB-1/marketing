@@ -1,0 +1,27 @@
+// Navigation Styles here
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 48%;
+
+  @media @mobile {
+    flex-direction: column;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+    font-family: Anton;
+
+    &:hover {
+      color: @off-white;
+    }
+
+    @media @mobile {
+      font-size: 1.8rem;
+      padding: 5% 0;
+    }
+  }
+}

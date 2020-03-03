@@ -125,6 +125,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.sectionteam {
+  display: flex;
+  width: 100%;
+}
+.sectionteam .team {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
 * {
   box-sizing: border-box;
 }

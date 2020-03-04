@@ -279,6 +279,7 @@ button {
   line-height: 45px;
   box-sizing: border-box;
   text-align: center;
+  outline: none;
 }
 button:hover {
   display: block;
@@ -331,13 +332,34 @@ button:hover {
   display: flex;
   flex-direction: row-reverse;
 }
+@media (max-width: 800px) {
+  .with-photos {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .with-photos img {
   width: 50%;
   padding: 2%;
 }
+@media (max-width: 800px) {
+  .with-photos img {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .with-photos img {
+    width: 100%;
+  }
+}
 .with-photos article {
   width: 50%;
   padding: 2%;
+}
+@media (max-width: 800px) {
+  .with-photos article {
+    width: 80%;
+  }
 }
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
@@ -357,7 +379,6 @@ q:before {
 q:after {
   content: close-quote;
   display: inline;
-  height: 0;
   line-height: 0;
   left: 2px;
   position: relative;
@@ -368,6 +389,11 @@ q:after {
 .mid-section {
   display: flex;
   margin: 5%;
+}
+@media (max-width: 500px) {
+  .mid-section {
+    display: none;
+  }
 }
 .mid-section article {
   display: flex;
@@ -382,6 +408,11 @@ q:after {
 }
 .bottom-border {
   border-bottom: 1px gray solid;
+}
+@media (max-width: 500px) {
+  .bottom-border {
+    border: none;
+  }
 }
 .footer-middle {
   font-style: italic;

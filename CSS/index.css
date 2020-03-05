@@ -210,6 +210,18 @@ footer {
   background-color: black;
   padding: 1%;
 }
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../Img/index-images/rsz_marcus-croucher-hgepldb8_5c-unsplash.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding-top: 10%;
+}
 .section-home {
   display: flex;
   padding: 0 5%;
